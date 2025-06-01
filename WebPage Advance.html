@@ -1,0 +1,3011 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gaming Arena</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="CSSwebpage.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../WebPage/Resources/Icons/GAicon.ico"
+    />
+
+    <script>
+      window.onload = () => {
+        let name = prompt("Please Enter Your Name:");
+        var pattern = /[^a-zA-Z ]/;
+        if (name.match(pattern)) {
+          alert(
+            "Invalid Username Entered (Numbers/Special Characters Aren't Allowed)."
+          );
+          location.reload();
+        } else {
+          document.getElementById("welcome").innerHTML =
+            "<h3>Welcome " + name + " To</h3>";
+          alert(`Welcome ${name}!`);
+        }
+      };
+    </script>
+  </head>
+  <body>
+    <header>
+      <div>
+        <a id="home"></a>
+        <div>
+          <img
+            class="logo"
+            src="../WebPage/Resources/Icons/finalogo.png"
+            width="65px"
+            height="65px"
+            align="left"
+          />
+        </div>
+        <div>
+          <center>
+            <a class="a" href="#racing">RACING</a>
+            <a class="a1" href="#action">ACTION</a>
+            <a class="a1" href="#horror">HORROR</a>
+            <a class="a1" href="#adventure">ADVENTURE</a>
+            <a class="a1" href="#sport">SPORT</a>
+          </center>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-7 col-sm-12">
+            <div id="welcome" class="name"></div>
+            <h1 style="font-size: 4.5vw">GAMING ARENA</h1>
+            <h4 class="tagline">The ultimate gaming experience</h4>
+          </div>
+          <div class="col-md-5">
+            <img
+              src="../WebPage/Resources/Icons/spiderman.png"
+              alt="spiderman"
+              class="responsive"
+              height="934px"
+              width="538px"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="cover">
+          <div class="content text-center">
+            <h1>Top Upcoming Games</h1>
+            <p class="about">
+              Looking for an upcoming games release schedule throughout the
+              year? Then you're in the right place. <br />The coming months are
+              set to be jam-packed with an abundance of new games and we're here
+              to let you know when you'll get your hands on them.
+            </p>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <div class="container-fluid text-center">
+          <div
+            class="numbers d-flex flex-md-row flex-wrap justify-content-center"
+          >
+            <div class="rect">
+              <p class="gamename">STARFIELD</p>
+              <a
+                href="https://www.youtube.com/embed/pYqyVpCV-3c"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Upcoming Games/Bethesda_Starfield.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Releasing on:</b><br />
+                11 November 2022
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">GHOSTWIRE TOKYO</p>
+              <a
+                href="https://www.youtube.com/embed/l4tkNjJsOvY"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Upcoming Games/GhostWire_Tokyo.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Releasing on:</b><br />
+                25 March 2022
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">STALKER 2</p>
+              <a
+                href="https://www.youtube.com/embed/SjDMwsbaSd8"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Upcoming Games/STALKER_2_cover_art.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Releasing on:</b><br />
+                8 December 2022
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">REDFALL</p>
+              <a
+                href="https://www.youtube.com/embed/3pWjcqXnP2g"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Upcoming Games/Redfall_cover.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Releasing on:</b><br />
+                21 September 2022
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <a id="racing"></a>
+        <div class="cover">
+          <div class="content text-center">
+            <h1>Racing Genre Games</h1>
+            <p class="about">
+              Racing games are a video game genre in which the player
+              participates in a racing competition. <br />check out the latest
+              Racing Genre Games below.
+            </p>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <div class="container-fluid text-center">
+          <div
+            class="numbers d-flex flex-md-row flex-wrap justify-content-center"
+          >
+            <div class="rect">
+              <p class="gamename">Forza Horizon 5</p>
+              <a
+                href="https://www.youtube.com/embed/U3mEOHvSUyw"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Racing Games/forza.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/1551360/Forza_Horizon_5/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://www.xbox.com/en-IN/games/store/forza-horizon-5/9NNX1VVR3KNQ/0010"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/xbox1.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">CarX Drift Racing</p>
+              <a
+                href="https://www.youtube.com/embed/jcIwFzNuC1Y"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Racing Games/carx.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/635260/CarX_Drift_Racing_Online/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP4910-CUSA15633_00-0000000000000000"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">Assetto Corsa</p>
+              <a
+                href="https://www.youtube.com/embed/TDFN-E30jhU"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Racing Games/assetto.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/244210/Assetto_Corsa/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP4040-CUSA01797_00-ASSETTOCORSAXXXX"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">The Crew™ 2</p>
+              <a
+                href="https://www.youtube.com/embed/X9-bWlWilps"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Racing Games/crew2.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/646910/The_Crew_2/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP0001-CUSA08609_00-THECREW2SCEE0000"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">F1® 2020</p>
+              <a
+                href="https://www.youtube.com/embed/wF0vF1uXXYU"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Racing Games/F1.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/1080110/F1_2020/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP4001-CUSA16283_00-F12020EMASTER000"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">DiRT Rally 2.0</p>
+              <a
+                href="https://www.youtube.com/embed/C2K-NShU_M8"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Racing Games/dirt.jfif"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/690790/DiRT_Rally_20/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP4001-CUSA12747_00-DIRTRALLY2CAR010"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">Project CARS 2</p>
+              <a
+                href="https://www.youtube.com/embed/z1OjVNZdRwU"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Racing Games/project car.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/378860/Project_CARS_2/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP0700-CUSA04093_00-PROJECTCARS20000"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">Need for Speed™</p>
+              <a
+                href="https://www.youtube.com/embed/p4Q3uh2RaZo"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Racing Games/NFS.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/1222680/Need_for_Speed_Heat/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP0006-CUSA15090_00-NEEDFORSPEED2020"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">Wreckfest</p>
+              <a
+                href="https://www.youtube.com/embed/cbsDiIuI7KQ"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Racing Games/wreckfest.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/228380/Wreckfest/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP4389-CUSA08652_00-WRECKFESTEU00001"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">Inertial Drift</p>
+              <a
+                href="https://www.youtube.com/embed/PMUZ9wHtuOY"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Racing Games/inertial.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/1184480/Inertial_Drift/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP4293-CUSA17439_00-000INERTIALDRIFT"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">Redout</p>
+              <a
+                href="https://www.youtube.com/embed/PMUZ9wHtuOY"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Racing Games/redout.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/517710/Redout_Enhanced_Edition/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP8948-CUSA24486_00-SPACEASSAULT0000"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">Ride 2</p>
+              <a
+                href="https://www.youtube.com/embed/utriU0KG4RY"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Racing Games/ride.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/477770/Ride_2/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP4356-CUSA05921_00-RIDE2DLC31000000"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <a id="action"></a>
+        <div class="cover">
+          <div class="content text-center">
+            <h1>Action Genre Games</h1>
+            <p class="about">
+              An action game is a video game genre that emphasizes physical
+              challenges, including hand–eye coordination and reaction-time.
+              <br />Check out the latest Action games below.
+            </p>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <div class="container-fluid text-center">
+          <div
+            class="numbers d-flex flex-md-row flex-wrap justify-content-center"
+          >
+            <div class="rect">
+              <p class="gamename">Grand Theft Auto V</p>
+              <a
+                href="https://www.youtube.com/embed/U3mEOHvSUyw"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Action Games/GTA5.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP1004-CUSA00411_00-PREMIUMPACKOG001"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">Rainbow Six® Siege</p>
+              <a
+                href="https://www.youtube.com/embed/KlbLLRdg9u8"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Action Games/rainbow.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/359550/Tom_Clancys_Rainbow_Six_Siege/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP0001-CUSA15434_00-R6QUARANTINE0000"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">Warframe</p>
+              <a
+                href="https://www.youtube.com/embed/Tua7aK6Y7NY"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Action Games/warframe.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/230410/Warframe/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP2097-CUSA00106_00-0000000000000000"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">PAYDAY 2</p>
+              <a
+                href="https://www.youtube.com/embed/Z2tmHMIA1sU"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Action Games/payday.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/218620/PAYDAY_2/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP4040-CUSA01761_00-PAYDAY2CRIMEWAVE"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">Counter Strike:GO</p>
+              <a
+                href="https://www.youtube.com/embed/edYCtaNueQY"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Action Games/CSGO.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://counter-strike-global-offensive.en.softonic.com"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/softonic.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">R D Redemption 2</p>
+              <a
+                href="https://www.youtube.com/embed/Dw_oH5oiUSE"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Action Games/red dead.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP1004-CUSA08519_00-REDEMPTIONFULL02"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">DOOM</p>
+              <a
+                href="https://www.youtube.com/embed/_UuktemkCFI"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Action Games/doom.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/379720/DOOM/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP1003-CUSA02092_00-DOOMEUROPEROWSKU"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">NARUTO STORM 4</p>
+              <a
+                href="https://www.youtube.com/embed/9Vm4m15r2Xc"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Action Games/naruto.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/349040/NARUTO_SHIPPUDEN_Ultimate_Ninja_STORM_4/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP0700-CUSA02854_00-NARUTOUNS4000000"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">HITMAN™ 2</p>
+              <a
+                href="https://www.youtube.com/embed/R8aRCwbZGek"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Action Games/hitman.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/863550/HITMAN_2/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP3969-CUSA12414_00-STARTPACK0000000"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">DRAGON BALL Z</p>
+              <a
+                href="https://www.youtube.com/embed/RoAG2g8oXQw"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Action Games/dragonball.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/851850/DRAGON_BALL_Z_KAKAROT/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP0700-CUSA14835_00-NEWDBZRPG0000000"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">Apex Legends™</p>
+              <a
+                href="https://www.youtube.com/embed/innmNewjkuk"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Action Games/apex.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/1172470/Apex_Legends/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP0006-CUSA12552_00-APEXLEGENDRSPWN1"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">TEKKEN 7</p>
+              <a
+                href="https://www.youtube.com/embed/1V-_q3SKh5w"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Action Games/tekken.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/389730/TEKKEN_7/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP0700-CUSA06014_00-ORIGINALS0000000"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <a id="horror"></a>
+        <div class="cover">
+          <div class="content text-center">
+            <h1>Horror Genre Games</h1>
+            <p class="about">
+              A horror game is a video game genre centered on horror fiction and
+              typically designed to scare the player.<br />check out latest
+              horror games below.
+            </p>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <div class="container-fluid text-center">
+          <div
+            class="numbers d-flex flex-md-row flex-wrap justify-content-center"
+          >
+            <div class="rect">
+              <p class="gamename">The Village</p>
+              <a
+                href="https://www.youtube.com/embed/arEdruKxrQ8"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Horror Games/village.png"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/1196590/Resident_Evil_Village/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP0102-PPSA01557_00-VILLAGEFULLGAMEX"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img class="imgHOVER4"
+                    src="../WebPage/Resources/Icons/playstation.png" height="30"
+                    width="40"" />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">OUTLAST TRINITY</p>
+              <a
+                href="https://www.youtube.com/embed/uKA-IA4locM"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Horror Games/outlast.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/bundle/5024/Outlast_Trinity/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP4467-CUSA06633_00-OUTLAST200000000"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">Dead by Daylight</p>
+              <a
+                href="https://www.youtube.com/embed/JGhIXLO3ul8"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Horror Games/DBD.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/381210/Dead_by_Daylight/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP3367-PPSA02049_00-DEADBYDAYLIGHT00"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">Amnesia: Rebirth</p>
+              <a
+                href="https://www.youtube.com/embed/wqozgX92qBM"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Horror Games/rebirth.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/999220/Amnesia_Rebirth/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP1188-CUSA19272_00-AMNESIAREBIRTH20"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">Man of Medan</p>
+              <a
+                href="https://www.youtube.com/embed/OQvo4-Ly-sA"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Horror Games/medan.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/939850/The_Dark_Pictures_Anthology_Man_of_Medan/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP0700-CUSA14102_00-SMGDARKPICTURESA"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">Resident Evil 7</p>
+              <a
+                href="https://www.youtube.com/embed/W1OUs3HwIuo"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Horror Games/resident.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/418370/Resident_Evil_7_Biohazard/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP0102-CUSA03842_00-BH70000000000001"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">Layers of Fear 2</p>
+              <a
+                href="https://www.youtube.com/embed/kE3hP6BbjXg"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Horror Games/fear.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/1029890/Layers_of_Fear_2/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP2165-CUSA15639_00-LOF2GAMEEUXXXXXX"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">Alien Isolation</p>
+              <a
+                href="https://www.youtube.com/embed/7h0cgmvIrZw"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Horror Games/alien.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/214490/Alien_Isolation/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP0177-CUSA00362_00-ALIENISOLATIONP4"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">The Evil Within 2</p>
+              <a
+                href="https://www.youtube.com/embed/XCmscJkha34"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Horror Games/the evil.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/601430/The_Evil_Within_2/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP1003-CUSA08975_00-PRJGDN0000000000"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">Soma</p>
+              <a
+                href="https://www.youtube.com/embed/SlZfznVWiBQ"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Horror Games/soma.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/282140/SOMA/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP1188-CUSA03200_00-HPL3SOMAGAME2015"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">Little Nightmares II</p>
+              <a
+                href="https://www.youtube.com/embed/AI9zBBTyX-E"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Horror Games/nightmares.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/860510/Little_Nightmares_II/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP0700-PPSA02154_00-LITTLENIGHTS2000"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">Observer</p>
+              <a
+                href="https://www.youtube.com/embed/c3xSyjKA4iQ"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Horror Games/observer.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/1386900/Observer_System_Redux/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP4176-PPSA02117_00-8201964206903574"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <a id="adventure"></a>
+        <div class="cover">
+          <div class="content text-center">
+            <h1>Adventure Genre Games</h1>
+            <p class="about">
+              An adventure game is a video game in which the player assumes the
+              role of a protagonist in an interactive story driven by
+              exploration and/or puzzle-solving.<br />
+              check out latest adventure games below.
+            </p>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <div class="container-fluid text-center">
+          <div
+            class="numbers d-flex flex-md-row flex-wrap justify-content-center"
+          >
+            <div class="rect">
+              <p class="gamename">The Witcher® 3</p>
+              <a
+                href="https://www.youtube.com/embed/XHrskkHf958"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Adventure Games/witcher.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP4497-CUSA05574_00-00000000000GOTY4"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">Rise of Tomb Raider</p>
+              <a
+                href="https://www.youtube.com/embed/qiYiddjc6cU"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Adventure Games/tomb.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/391220/Rise_of_the_Tomb_Raider/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP0082-CUSA05716_00-RISEOFTOMBRAIDER"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">Sea Of Thieves</p>
+              <a
+                href="https://www.youtube.com/embed/r5JIBaasuE8"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Adventure Games/sea.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/1172620/Sea_of_Thieves/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://www.xbox.com/en-IN/games/sea-of-thieves"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/xbox1.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">The Forest</p>
+              <a
+                href="https://www.youtube.com/embed/7mwn5U2PNvk"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Adventure Games/forest.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/242760/The_Forest/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP0238-CUSA12398_00-THEFOREST0000000"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">God Of War</p>
+              <a
+                href="https://www.youtube.com/embed/K0u_kAWLJOA"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Adventure Games/god of war.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/1593500/God_of_War/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP9000-CUSA07410_00-0000000GODOFWARN"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">It Takes Two</p>
+              <a
+                href="https://www.youtube.com/embed/ohClxMmNLQQ"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Adventure Games/takes 2.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/1426210/It_Takes_Two/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP0006-PPSA02343_00-ITTAKESTWORETAIL"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">Human: Fall Flat</p>
+              <a
+                href="https://www.youtube.com/embed/jNV4lCNEp_0"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Adventure Games/human.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/477160/Human_Fall_Flat/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP4395-PPSA02429_00-HFFGAME000000PS5"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">Assassin's Creed®</p>
+              <a
+                href="https://www.youtube.com/embed/3kGHHMc5dqE"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Adventure Games/creed.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/368500/Assassins_Creed_Syndicate/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP0001-CUSA02376_00-ACVPOSTSTANDEURP"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">Spider-Man: VR</p>
+              <a
+                href="https://www.youtube.com/embed/hOt4vk87Fb0"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Adventure Games/spidermanVR.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/1067800/SpiderMan_Far_From_Home_Virtual_Reality/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP3295-CUSA16524_00-SPIDERMANFFHPSVR"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">Life is Strange: T C</p>
+              <a
+                href="https://www.youtube.com/embed/PNt1aSkYfWk"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Adventure Games/strange.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/936790/Life_is_Strange_True_Colors/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP0082-PPSA02047_00-7091966858853560"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">A Way Out</p>
+              <a
+                href="https://www.youtube.com/embed/yGZGSdgJVPM"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Adventure Games/way.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/1222700/A_Way_Out/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP0006-CUSA08004_00-AWAYOUTEU0000000"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">Detroit: B H</p>
+              <a
+                href="https://www.youtube.com/embed/8a-EObAhYrg"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Adventure Games/detroit.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/1222140/Detroit_Become_Human/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP9000-CUSA09417_00-DETROIT000000001"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <a id="sport"></a>
+        <div class="cover">
+          <div class="content text-center">
+            <h1>Sport Genre Games</h1>
+            <p class="about">
+              A sports video game is a video game that simulates the practice of
+              sports, including team sports, extreme sports, and combat
+              sports.<br />
+              check out latest sport games below.
+            </p>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <div class="container-fluid text-center">
+          <div
+            class="numbers d-flex flex-md-row flex-wrap justify-content-center"
+          >
+            <div class="rect">
+              <p class="gamename">F. Manager 2022</p>
+              <a
+                href="https://www.youtube.com/embed/DfzMZuZAteA"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Sport Games/football.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/1569040/Football_Manager_2022/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://www.xbox.com/en-in/games/store/football-manager-2022/9mvj0v2jhk28"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/xbox1.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">Descenders</p>
+              <a
+                href="https://www.youtube.com/embed/zG-dBYtbPNA"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Sport Games/descenders.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/681280/Descenders/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP3999-CUSA10465_00-DESCENDERSGAMEEE"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">Steep™</p>
+              <a
+                href="https://www.youtube.com/embed/sAGXhqUcPzs"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Sport Games/steep.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/460920/Steep/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP0001-CUSA05526_00-STEEPGAMEEEFIGS1"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">FIFA 22</p>
+              <a
+                href="https://www.youtube.com/embed/SYsi5QuOJNE"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Sport Games/fifa.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/1506830/FIFA_22/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP0006-PPSA03177_00-FIFAFOOTBALL2022"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">Cricket 22</p>
+              <a
+                href="https://www.youtube.com/embed/mkAnnFcGUvo"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Sport Games/cricket.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/1701380/Cricket_22/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP4249-PPSA04862_00-CRICKET220000000"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">Baseball 3</p>
+              <a
+                href="https://www.youtube.com/embed/EV1cT8spGmw"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Sport Games/baseball.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/988910/Super_Mega_Baseball_3/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP0855-CUSA16933_00-SMB3GAME00000000"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">Rocket League</p>
+              <a
+                href="https://www.youtube.com/embed/SgSX3gOrj60"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Sport Games/rocket.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/477160/Human_Fall_Flat/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER2"
+                      src="../WebPage/Resources/Icons/epic.png"
+                      height="30"
+                      width="26"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP2002-CUSA01433_00-ROCKETLEAGUEEU01"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">NBA 2K22</p>
+              <a
+                href="https://www.youtube.com/embed/VIXmwRLHOU0"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Sport Games/NBA.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/1644960/NBA_2K22/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP1001-PPSA03670_00-NBA2K22000000000"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">Olympic Games Tokyo</p>
+              <a
+                href="https://www.youtube.com/embed/jEA3Vm_bvMk"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Sport Games/olympic.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/981890/Olympic_Games_Tokyo_2020__The_Official_Video_Game/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP0177-CUSA17229_00-MUSASHI000000000"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">Tennis WorldTour</p>
+              <a
+                href="https://www.youtube.com/embed/M-NMZOAu3-8"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Sport Games/NBA.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/692030/Tennis_World_Tour/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP4008-CUSA09876_00-TENNISWTEBRGEDIT"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">WWE 2K20</p>
+              <a
+                href="https://www.youtube.com/embed/QwCV-Cuvko0"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Sport Games/WWE.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/1015500/WWE_2K20/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP1001-CUSA15765_00-WWE2K20MAINSKU02"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+
+            <div class="rect">
+              <p class="gamename">Madden NFL 22</p>
+              <a
+                href="https://www.youtube.com/embed/htZxwfGARGk"
+                target="_blank"
+              >
+                <img
+                  class="imgHOVER3"
+                  src="../WebPage/Resources/Sport Games/NFL.jpg"
+                  height="300px"
+                  width="210px"
+                />
+              </a>
+              <p>
+                <b>Download From:</b><br />
+                <a
+                  href="https://store.steampowered.com/app/1519350/Madden_NFL_22/"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER"
+                      src="../WebPage/Resources/Icons/steam.png"
+                      height="30"
+                      width="30"
+                    />
+                  </button>
+                </a>
+                <a
+                  href="https://store.playstation.com/en-in/product/EP0006-CUSA25550_00-MADDENNFL22GAME1"
+                  target="_blank"
+                >
+                  <button type="button" class="btn btn-link">
+                    <img
+                      class="imgHOVER4"
+                      src="../WebPage/Resources/Icons/playstation.png"
+                      height="30"
+                      width="40"
+                    />
+                  </button>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container-fluid p-0">
+        <div class="row text-left">
+          <div class="col-md-5 col-sm-5">
+            <h4 class="text-light">About us</h4>
+            <p class="text-muted">
+              We are providing latest games of every genre, and you can download
+              it for free. We also develop games and trying to become India's
+              No.1 Gaming website.<br />
+              Our Passion is to provide latest games, where each player can find
+              any game that they always wanted to play.
+            </p>
+            <p class="pt-4 text-muted">
+              Copyright ©2022 All rights reserved | This webpage is made by
+              <span>Rohit & Aman</span>
+            </p>
+          </div>
+          <div class="col-md-5 col-sm-12">
+            <h4 class="text-light">Contact Us</h4>
+            <p class="text-muted">
+              If you have any suggestions or you want us to list any game on our
+              website then contact us on
+              <a
+                style="color: #ad706c"
+                href="http://www.gmail.com/"
+                target="_blank"
+                >Gmail</a
+              >.
+            </p>
+          </div>
+          <div class="col-md-2 col-sm-12">
+            <h4 class="text-light">Follow Us</h4>
+            <p class="text-muted">Let us be social:</p>
+
+            <a class="follow" href="https://www.instagram.com/" target="_blank"
+              ><img
+                class="social"
+                src="../WebPage/Resources\instaicon.png"
+              />&nbsp;&nbsp;Instagram</a
+            >
+            <br />
+
+            <a class="follow" href="https://www.facebook.com/" target="_blank"
+              ><img
+                class="social"
+                src="../WebPage/Resources\fbicon.png"
+              />&nbsp;&nbsp;Facebook</a
+            >
+            <br />
+
+            <a class="follow" href="https://www.twitter.com/" target="_blank"
+              ><img
+                class="social"
+                src="../WebPage/Resources\twit2.png"
+              />&nbsp;&nbsp;Twitter</a
+            >
+            <br />
+
+            <a class="follow" href="https://www.youtube.com/" target="_blank"
+              ><img
+                class="social"
+                src="../WebPage/Resources\yt3.png"
+              />&nbsp;&nbsp;YouTube</a
+            >
+          </div>
+        </div>
+
+        <a class="home" href="#home"><center>RETURN TO MENU</center></a>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
